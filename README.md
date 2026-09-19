@@ -9,7 +9,7 @@ Run the application:
 python greeting.py
 ```
 
-You will be prompted to enter your name, and the application will return both a greeting and a goodbye message.
+You will be prompted to enter your name. If you enter a valid name, the application will return both a greeting and a goodbye message. If you enter an empty name or only whitespace, it will display "Please enter a valid name."
 
 ## Running Tests
 

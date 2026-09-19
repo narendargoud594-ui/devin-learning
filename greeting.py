@@ -8,7 +8,15 @@ def goodbye(name):
     return f"Goodbye, {name}!"
 
 
+def is_valid_name(name):
+    """Check if the name is valid (not empty or whitespace only)."""
+    return name.strip() != ""
+
+
 if __name__ == "__main__":
     name = input("Enter your name: ")
-    print(greet(name))
-    print(goodbye(name))
+    if is_valid_name(name):
+        print(greet(name))
+        print(goodbye(name))
+    else:
+        print("Please enter a valid name.")
