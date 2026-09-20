@@ -1,6 +1,6 @@
 # Greeting Application
 
-A simple Python application that greets and says goodbye to customers by name.
+A simple Python application that greets and says goodbye to customers by name and displays their customer ID.
 
 ## How to Run
 
@@ -9,7 +9,7 @@ Run the application:
 python greeting.py
 ```
 
-You will be prompted to enter your name. If you enter a valid name, the application will return both a greeting and a goodbye message. If you enter an empty name or only whitespace, it will display "Please enter a valid name."
+You will be prompted to enter your customer ID and name. If you enter a valid name, the application will display the customer ID, followed by a greeting and a goodbye message. If you enter an empty name or only whitespace, it will display "Please enter a valid name."
 
 ## Running Tests
 

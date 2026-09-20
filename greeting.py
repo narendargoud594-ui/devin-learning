@@ -13,9 +13,16 @@ def is_valid_name(name):
     return name.strip() != ""
 
 
+def format_customer_id(customer_id):
+    """Return a formatted customer ID string."""
+    return f"Customer ID: {customer_id}"
+
+
 if __name__ == "__main__":
+    customer_id = input("Enter your customer ID: ")
     name = input("Enter your name: ")
     if is_valid_name(name):
+        print(format_customer_id(customer_id))
         print(greet(name))
         print(goodbye(name))
     else:
